@@ -1,5 +1,5 @@
 -- CREATE DATABASE IF NOT EXISTS docker;
-USE consulta-SQL;
+USE consulta-SQL-PHP;
 
 /*Create all tables*/
 CREATE TABLE IF NOT EXISTS users( 

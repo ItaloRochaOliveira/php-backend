@@ -3,9 +3,9 @@ version: '3.9'
 services:
   db:
     image: postgres
-    container_name: consulta-docker
+    container_name: consulta-docker-PHP
     ports:
-      - 3306:3306
+      - 5432:5432
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_PASS}
       MYSQL_DATABASE: ${DB_DATABASE}
